@@ -3,7 +3,7 @@
 This contains my skeleton for starting any gulp-workflow project.
 
 ## Getting started
-Download to computer and navigate to directory in terminal. _feel free to edit the package.json to match your project -- just don't remove any dependancies._
+Download to computer and navigate to directory in terminal. _Feel free to edit the package.json to match your project -- just don't remove any dependancies._
 * Run the command `npm install -y`. This will initialize the project and install node js modules, including the gulp task dependancies.
 * Run the command `gulp setup`. This will create the proper base file structure for the src file.
 
@@ -34,5 +34,5 @@ To clean out the `./site` folder at any time run the task `gulp cleanroot`.
 ### GH-Pages
 To publish the `./site` folder to Github page run the task `gulp deploy`
 
-## Companion Stylus Skelton
-Still to come...
+## Companion Stylus Skeleton
+Check out my base (https://github.com/uxdiva/stylusskelton "Skeleton")  to add starter styles for your site. Simply place them in the `./src/stylus` folder.
