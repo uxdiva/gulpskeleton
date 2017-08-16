@@ -13,7 +13,7 @@ gulp.task('cleanroot', function(cb){
 
 // Deploy to GH-Pages
 gulp.task('gh-pages', function() {
-  return gulp.src(config.paths.project + "*")
+  return gulp.src(config.paths.project + "*/**")
     .pipe(ghPages());
 });
 
