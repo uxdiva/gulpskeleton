@@ -3,7 +3,7 @@ module.exports = {
     project: './site/',
     pug: {
       dir:  './src/pug',
-      src: './src/pug/pages/*.pug',
+      src: './src/pug/pages/**/*.pug',
       all: './src/pug/**/*.pug',
       dest: './site/'
     },
